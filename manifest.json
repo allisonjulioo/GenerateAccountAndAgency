@@ -1,0 +1,11 @@
+{
+  "name": "Digito verificador agência",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Digito verificador agência",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "manifest_version": 2
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de agencia e conta</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="form">
+      <label for="" class="label-agency">
+        <span>Banco</span>
+        <select name="" id="agency"  >
+          <option value="bb">Banco do Brasil</option>
+        </select>
+      </label>
+      <label for="" class="label-result">
+        <span>Agência com digito</span>
+        <strong id="result-ag" class="result">0000-0</strong>
+        <span>Conta com digito</span>
+        <strong id="result-cc" class="result">00000-0</strong>
+      </label>
+      <button id="generate" on-click="generate()">Gerar agência e dígito</button>
+    </div>
+  </body>
+</html>
