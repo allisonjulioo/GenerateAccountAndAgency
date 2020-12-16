@@ -9,8 +9,10 @@ html {
   font-family: "Poppins", sans-serif;
 }
 .form {
-  max-width: 400px;
+  max-width: 460px;
   margin: 12em auto 0;
+  padding: 2em 2em 3em;
+  border: 1px solid #313131;
 }
 .form label {
   display: block;
@@ -41,11 +43,10 @@ html {
   color: #9a9a9a;
 }
 .form .label-result .result:hover {
-  background: #ececec;
-  color: #232323;
+  background: #2f2f2f; 
 }
 .form .label-result .result:active {
-  background: #afe0af;
+  background: #245024;
 }
 input {
   outline: none;
